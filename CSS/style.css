@@ -20,3 +20,63 @@ body {background-color: #FCFAEE;
   text-decoration: none;
   font-size: 17px;
 }
+.topnav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.topnav a{
+    color: #CC8EAA;
+    text-align:center;
+    padding:5px 15px;
+    text-decoration:none;
+    font-size:17px  
+}
+.reviewnav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.reviewnav a{
+    color: #CC8EAA;
+    text-align:center;
+    padding:5px 15px;
+    text-decoration:none;
+    font-size:17px
+}
+.blognav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.blognav a{
+    color: #CC8EAA;
+    text-align:center;
+    padding: 5px 15px;
+    text-decoration:none;
+    font-size:17px
+}
+.newsnav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.newsnav a{
+    color: #CC8EAA;
+    text-align:center;
+    padding:5px 15px;
+    text-decoration:none;
+    font-size:17px
+}
+.musicnav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.musicnav a{
+    color: #CC8EAA;
+    texts-align:center;
+    padding:5px 15px;
+    text-decoration:none;
+    font-size:17px
+}
