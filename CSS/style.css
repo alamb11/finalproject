@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color: #FCFAEE;
+}
+
+.menu .search {
+    float:right
+}
+.menu input[type=text] {
+  padding: 6px;
+  margin-top: 22px;
+  font-size: 17px;
+  border: none;
+}
+.navigation a {
+  float: left;
+  color: #CC8EAA;
+  text-align:center;
+  padding:5px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
