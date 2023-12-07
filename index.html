@@ -18,11 +18,84 @@
     <a href="aboutme.html">About Me</a>
     <a href="reviews.html">Reviews</a>
     <a href="blog.html">Blog</a>
-    <a href="news.html">News</a>
-    <a href="newmusic.html">New/Upcoming Music</a>
+    <a>News</a>
+    <a>New/Upcoming Music</a>
 </div>
 <br>
 <br>
 <hr>
+<div class="home-container">
+
+<div class="slideshow-container">
+    
+<div class="mySlides fade">
+    <a href="therecord.html"><img src="images/bgenius3.jpg" alt="boygenius for the record"></a>
+<div class="text">Album Review: "the record" - boygenius</div>
+</div>
+    
+<div class="mySlides fade">
+<img src="images/tsmidnights.jpg" alt="Taylor Swift for Midnights">
+<div class="text">Album Review: "Midnights" - Taylor Swift</div>
+</div>
+    
+<div class="mySlides fade">
+<img src="images/aespa.jpg" alt="aespa for My World">
+<div class="text">Album Review: "My World" - aespa</div>
+</div>
+    
+<div class="mySlides fade">
+    <a href="melodrama.html"><img src="images/lorde-cover.jpg" alt="Lorde for Melodrama"></a>
+<div class="text">"Melodrama": The Universal Teenage Girl Experience</div>
+</div>
+    
+<div class="mySlides fade">
+<img src="images/punisher.jpg" alt="Phoebe Bridgers for Punisher">
+<div class="text">Punisher: An Apocalyptic Album of Existential Dread</div>
+</div>
+    
+<div class="mySlides fade">
+<img src="images/livguts.jpg" alt="Olivia Rodrigo for Guts">
+<div class="text">Olivia Rodrigo Spills Her GUTS in Extraordinary Sophomore Album</div>
+</div>
+<br>
+<br>
+</div>
+<div class="bottom-home">
+
+<div class="news">
+    <div class="pic-one"><img src="images/timemag.jpg" alt="Taylor Swift for Time"></div>
+    <div class="text-one"><h3><u>Taylor Swift Named Time Magazine's Person of the Year</u></h3>
+    <p>Taylor Swift graces the cover of Time Magazine as 'Person of the Year', 
+        <br>becoming the first musician to recieve the cover.</p></div>
+    <div class="pic-two"><img src="images/renmovie.jpg" alt="Beyonce Renaissance Tour Movie"></div>
+    <div class="text-two"><h3><u>Beyoncé's Renaissance Film Tops U.S Box Office
+        <br>in It's Opening Weekend</u></h3>
+    <p>Renaissance: A Film opens with $21 million, the biggest<br> first-weekend-of-December opening since 2003.</p></div>
+    </div>
+    
+    <div class="staffpicks">
+        <h2><u>Staff Picks of the Week!</u></h2>
+    <img src="images/folklorepick.png" alt="folklore cover">
+    <img src="images/thered.jpeg" alt="The Red cover">
+    </div>
+    </div>
+    </div>
+<script>
+let slideIndex = 0;
+showSlides();
+    
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
 </body>
 </html>
